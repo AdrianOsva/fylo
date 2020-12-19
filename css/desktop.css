@@ -1,0 +1,105 @@
+@media screen and (min-width:800px) {
+    html {
+        font-size: 10px;
+    }
+    
+    /* header y nav */
+    .nav {
+        padding: 0 10rem;
+    }
+    .nav__logo {
+        width: 15rem;
+        height: auto;
+    }
+
+    /* section 1 */
+    .section-uno {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 10rem 1rem;
+        margin: 30px 0;
+    }
+    .section-uno__img img {
+      min-width: 400px;
+      max-width: 700px;
+    }
+    .header-section__parrafo,
+    .header-section__titulo {
+        text-align: start;
+    }
+    .formulario {
+        /* border: 1px solid red; */
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        margin-right: 5rem;
+    }
+    .formulario__correo {
+        margin-right: 2rem;
+    }
+    .formulario__boton {
+        width: 300px;
+    }
+
+    /* section 2 */
+    .section-dos {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 10rem 1rem;
+        background-size: 250% 100%;
+    }
+    .header-section__enlace {
+        display: block;
+        text-align: start;
+        margin-top: 1.5rem ;
+    }
+    .testimonio {
+        margin: auto;
+    }
+    .cont-testimonio {
+        background-color: #f8f8fe;
+        height: 100%;
+        padding-bottom: 5rem;
+    }
+    /* section 3 */
+    .section-tres {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5rem 1rem;
+    }
+    .section-tres .header-section,
+    .section-tres .formulario {
+        max-width: 500px;
+    }
+    .section-tres .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 2rem;
+    }
+    .section-tres .formulario__correo {
+        width: 400px;
+        max-width: 500px;
+    }
+
+
+    /* footer */
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        position: relative;
+    }
+    .footer-col4 {
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 12px;
+    }
+}
